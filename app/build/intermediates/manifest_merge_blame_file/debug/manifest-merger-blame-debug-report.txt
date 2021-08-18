@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.parallelstopwatch"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:5:5-76
+11-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:5:22-74
+12
+13    <application
+13-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:7:5-27:19
+14        android:allowBackup="true"
+14-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] /Users/tabinshaikh16/.gradle/caches/transforms-3/032c58922bb38a99adf98a8b0941b4fc/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:12:9-35
+22        android:theme="@style/Theme.ParallelStopwatch" >
+22-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:13:9-55
+23        <activity
+23-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:14:9-22:20
+24            android:name="com.example.parallelstopwatch.activities.MainActivity"
+24-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:15:13-52
+25            android:exported="true" >
+25-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:16:13-36
+26            <intent-filter>
+26-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:18:17-69
+27-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:20:17-77
+29-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <service
+33-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:23:9-26:60
+34            android:name="com.example.parallelstopwatch.service.SWService"
+34-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:24:13-46
+35            android:exported="false"
+35-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:25:13-37
+36            android:process=":myBackgroundServiceProcess" />
+36-->/Users/tabinshaikh16/AndroidStudioProjects/ParallelStopwatch/app/src/main/AndroidManifest.xml:26:13-58
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/tabinshaikh16/.gradle/caches/transforms-3/8118e846c721c6f743bc6bc1ffc5bab2/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/tabinshaikh16/.gradle/caches/transforms-3/8118e846c721c6f743bc6bc1ffc5bab2/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+40            android:authorities="com.example.parallelstopwatch.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/tabinshaikh16/.gradle/caches/transforms-3/8118e846c721c6f743bc6bc1ffc5bab2/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/tabinshaikh16/.gradle/caches/transforms-3/8118e846c721c6f743bc6bc1ffc5bab2/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/tabinshaikh16/.gradle/caches/transforms-3/8118e846c721c6f743bc6bc1ffc5bab2/transformed/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+43    </application>
+44
+45</manifest>

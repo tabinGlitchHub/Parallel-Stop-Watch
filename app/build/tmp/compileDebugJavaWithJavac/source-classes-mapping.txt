@@ -1,0 +1,4 @@
+com/example/parallelstopwatch/BuildConfig.java
+ com.example.parallelstopwatch.BuildConfig
+com/example/parallelstopwatch/databinding/ActivityMainBinding.java
+ com.example.parallelstopwatch.databinding.ActivityMainBinding
